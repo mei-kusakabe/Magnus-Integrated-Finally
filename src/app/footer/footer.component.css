@@ -70,24 +70,24 @@ a{
     padding: 10px;
     list-style: none;
 }
-i.fa {
+ 
+  i.fab {
     /* display: inline-block;
     border-radius: 120px;
     box-shadow: 0 0 2px #888;
     padding: 0.4em 0.5em;
     background: #CE992F; */
-    padding:calc(10px + (10 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
-    font-size: calc(15px + (20 - 15) * ((100vw - 360px) / (1600 - 360))) !important;
-    width: calc(30px + (38 - 30) * ((100vw - 360px) / (1600 - 360))) !important;
+    /* padding: calc(10px + (10 - 10) * ((100vw - 360px) / (1600 - 360))) !important; */
+    /* font-size: calc(15px + (20 - 15) * ((100vw - 360px) / (1600 - 360))) !important; */
+    /* width: calc(30px + (38 - 30) * ((100vw - 360px) / (1600 - 360))) !important;
     text-align: center;
     text-decoration: none;
-    border-radius:60px !important;
-    margin: 6px !important;
+    border-radius: 60px !important;
+    margin: 6px !important; */
 
-    background: #CE992F;
-  
-  }
+    color: #CE992F;
 
+}
 
 
 

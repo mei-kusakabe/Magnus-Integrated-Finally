@@ -81,7 +81,7 @@ li:focus {
   background-color: #000;
 }
 
-.dropdown a:after {
+/* .dropdown a:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -91,8 +91,18 @@ li:focus {
   border-width: 0 2px 2px 0;
   padding: 3px;
   transition: transform 0.2s ease-in-out;
+} */
+.dropdown a:after {
+  /* content: ""; */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: solid #e0e0e0;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transition: transform 0.2s ease-in-out;
 }
-
 .dropdown:hover a:after {
   transform: translateY(-50%) rotate(45deg);
 }
