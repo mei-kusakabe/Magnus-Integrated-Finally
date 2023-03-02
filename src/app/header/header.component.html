@@ -1,4 +1,4 @@
-<nav class="relative px-4 py-4 flex justify-between items-center" style="background: #1F1F1F;"  *ngIf="set">
+<nav class="relative px-4 py-4 flex justify-between items-center" style="background: #1F1F1F;" *ngIf="set">
   <a class="text-3xl font-bold myimg1  leading-none" href="#">
     <img class="myimg" src="../../assets/img/logonew.png" alt="" srcset="">
   </a>
@@ -20,14 +20,12 @@
     <li><a class="text-sm text-blue-600 font-bold menus" href="#" routerLink="about-us">About Us</a></li>
     <li class="text-gray-300" id="about-us"></li>
 
-    <li *ngIf="isLogedin"><a class="text-sm text-blue-600 font-bold menus" href="#"
-        routerLink="profile-details">Dashboard</a>
+    <li *ngIf="isLogedin"><a class="text-sm text-blue-600 font-bold menus" href="#" routerLink="dashboard">Dashboard</a>
     </li>
     <li class="text-gray-300">
 
     </li>
-    <li *ngIf="isLogedin"><a class="text-sm text-blue-600 font-bold menus" href="#"
-        routerLink="Invite">Invite</a>
+    <li *ngIf="isLogedin"><a class="text-sm text-blue-600 font-bold menus" href="#" routerLink="invite">Invite</a>
     </li>
     <li class="text-gray-300">
 

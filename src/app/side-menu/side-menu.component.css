@@ -15,11 +15,16 @@
   transition: all 0.2s ease-in-out;
 } */
 
-
 a:hover,
 a:focus {
 
   background-color: #000 !important;
+  font-weight: 700;
+}
+
+ul a:hover {
+  background-color: white !important;
+  color: #000 !important;
   font-weight: 700;
 }
 

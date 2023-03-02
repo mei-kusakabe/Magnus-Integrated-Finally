@@ -60,6 +60,9 @@ import { CustomerKYCDocumentComponent } from './customer-kycdocument/customer-ky
 import { CustomerInvoicesComponent } from './customer-invoices/customer-invoices.component';
 import { OrderHistoryComponent } from './order-history/order-history.component';
 import { CustomerinfoComponent } from './customerinfo/customerinfo.component';
+import { AwarenessCampaignComponent } from './awareness-campaign/awareness-campaign.component';
+import { BankDetailsComponent } from './bank-details/bank-details.component';
+import { SponsorRegisterComponent } from './sponsor-register/sponsor-register.component';
 
 
 const routes: Routes = [
@@ -148,7 +151,14 @@ const routes: Routes = [
   { path: 'CustomerInvoices', component: CustomerInvoicesComponent },
   { path: 'OrderHistory', component: OrderHistoryComponent },
   { path: 'CustomerInvoices', component: CustomerInvoicesComponent },
-  { path: 'Customerinfo', component: CustomerinfoComponent }
+  { path: 'Customerinfo', component: CustomerinfoComponent },
+  { path: 'awarenes-campaign', component: AwarenessCampaignComponent },
+  { path: 'bank-details', component: BankDetailsComponent },
+  { path: 'SponsorRegister', component: SponsorRegisterComponent },
+
+
+
+
 
 
 

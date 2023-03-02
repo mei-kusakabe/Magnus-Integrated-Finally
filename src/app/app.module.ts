@@ -75,6 +75,9 @@ import { DownloadComponent } from './download/download.component';
 import { CustomerChangepasswordComponent } from './customer-changepassword/customer-changepassword.component';
 import { RenewalDetailsComponent } from './renewal-details/renewal-details.component';
 import { ShowIdCardDetailsComponent } from './show-id-card-details/show-id-card-details.component';
+import { AwarenessCampaignComponent } from './awareness-campaign/awareness-campaign.component';
+import { BankDetailsComponent } from './bank-details/bank-details.component';
+import { SponsorRegisterComponent } from './sponsor-register/sponsor-register.component';
  @NgModule({
   declarations: [
     AppComponent,
@@ -142,7 +145,10 @@ import { ShowIdCardDetailsComponent } from './show-id-card-details/show-id-card-
     DownloadComponent,
     CustomerChangepasswordComponent,
     RenewalDetailsComponent,
-    ShowIdCardDetailsComponent
+    ShowIdCardDetailsComponent,
+    AwarenessCampaignComponent,
+    BankDetailsComponent,
+    SponsorRegisterComponent
    ],
   imports: [
     BrowserModule,
